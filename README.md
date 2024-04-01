@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# Shopping Cart App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Shopping Image](https://github.com/tinabi8/Shopping-Cart_React_TypeScript/blob/main/Shopping.jpg)
 
-Currently, two official plugins are available:
+This project is a simple shopping cart application built with React and TypeScript. It allows users to browse products in a store and add selected items to the cart. Users can increase or decrease the quantity of items in the cart, as well as remove items from the cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Browse products in the store
+- Add items to the shopping cart
+- Increase or decrease the quantity of items in the cart
+- Remove items from the cart
+- Display the total quantity and total price of items in the cart
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+- React.js: JavaScript library for building user interfaces
+- TypeScript: Type-safe JavaScript variant that improves code readability and maintainability
+- Bootstrap: Front-end framework for responsive layout and styling
+- Vite: Fast modern build tool for developing modern web applications
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Quick Start
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the project to your local environment:
+
+```bash
+git clone https://github.com/tinabi8/Shopping-Cart_React_TypeScript.git
+
+Navigate to the project directory: cd Shopping-Cart_React_TypeScript
+
+Install project dependencies: npm install
+
+Start the development server: npm start
+
+Open http://localhost:3000 in your browser to view the application.
+
+This project is licensed under the MIT License.
+
+Feel free to modify and supplement the README content according to your actual project, including project description, features, tech stack, quick start guide, list of contributors, and license information.
+
+
