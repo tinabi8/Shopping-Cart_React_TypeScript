@@ -1,0 +1,22 @@
+[
+{
+    "id":1,
+    "name": "Romen&Julia JI",
+    "price": 10.99,
+    "imgUrl":"/imgs/1.jpg"
+},
+{
+    "id":2,
+    "name": "Romen&Julia GP",
+    "price": 10.99,
+    "imgUrl":"/imgs/2.jpg"
+},
+{
+    "id":3,
+    "name": "Romen&Julia HP",
+    "price": 15.99,
+    "imgUrl":"/imgs/3.jpg"
+}
+
+
+]
